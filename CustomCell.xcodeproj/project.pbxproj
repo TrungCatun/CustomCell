@@ -12,6 +12,8 @@
 		8774A13121104CB900DA77EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8774A12F21104CB900DA77EE /* Main.storyboard */; };
 		8774A13321104CB900DA77EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8774A13221104CB900DA77EE /* Assets.xcassets */; };
 		8774A13621104CB900DA77EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8774A13421104CB900DA77EE /* LaunchScreen.storyboard */; };
+		8774A13E21104DEF00DA77EE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774A13D21104DEF00DA77EE /* TableViewCell.swift */; };
+		8774A14021104E4800DA77EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774A13F21104E4800DA77EE /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8774A13221104CB900DA77EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8774A13521104CB900DA77EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8774A13721104CB900DA77EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8774A13D21104DEF00DA77EE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8774A13F21104E4800DA77EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				8774A12B21104CB900DA77EE /* AppDelegate.swift */,
 				8774A12D21104CB900DA77EE /* ViewController.swift */,
+				8774A13D21104DEF00DA77EE /* TableViewCell.swift */,
+				8774A13F21104E4800DA77EE /* TableViewController.swift */,
 				8774A12F21104CB900DA77EE /* Main.storyboard */,
 				8774A13221104CB900DA77EE /* Assets.xcassets */,
 				8774A13421104CB900DA77EE /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8774A13E21104DEF00DA77EE /* TableViewCell.swift in Sources */,
 				8774A12E21104CB900DA77EE /* ViewController.swift in Sources */,
 				8774A12C21104CB900DA77EE /* AppDelegate.swift in Sources */,
+				8774A14021104E4800DA77EE /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
